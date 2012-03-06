@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Pokerstats" uid="karstenroethig.pokerstats.product" id="karstenroethig.pokerstats.product" application="karstenroethig.pokerstats.application" version="0.2.1" useFeatures="false" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/karstenroethig.pokerstats/icons/about.gif"/>
+      <text>
+         Pokerstats 0.2.1
+
+Copyright © Karsten Röthig, 2011
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-nl de</programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/karstenroethig.pokerstats/icons/poker-icon-16.png" i32="/karstenroethig.pokerstats/icons/poker-icon-32.png"/>
+
+   <splash
+      location="karstenroethig.pokerstats"
+      startupProgressRect="0,325,480,15"
+      startupMessageRect="7,300,464,20"
+      startupForegroundColor="CBC412" />
+   <launcher name="Pokerstats">
+      <solaris/>
+      <win useIco="true">
+         <ico path="/karstenroethig.pokerstats/icons/poker.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+      <plugin id="com.ibm.icu"/>
+      <plugin id="karstenroethig.pokerstats"/>
+      <plugin id="net.ffxml.swtforms"/>
+      <plugin id="org.apache.commons.lang"/>
+      <plugin id="org.eclipse.core.commands"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.databinding"/>
+      <plugin id="org.eclipse.core.databinding.observable"/>
+      <plugin id="org.eclipse.core.databinding.property"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.help"/>
+      <plugin id="org.eclipse.jface"/>
+      <plugin id="org.eclipse.jface.databinding"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.ui"/>
+      <plugin id="org.eclipse.ui.forms"/>
+      <plugin id="org.eclipse.ui.workbench"/>
+      <plugin id="org.hibernate"/>
+      <plugin id="org.hsqldb"/>
+      <plugin id="org.jfree.jfreechart"/>
+   </plugins>
+
+
+</product>

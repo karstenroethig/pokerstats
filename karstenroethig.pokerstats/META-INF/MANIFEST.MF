@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pokerstats Plug-in
+Bundle-SymbolicName: karstenroethig.pokerstats; singleton:=true
+Bundle-Version: 0.2.1
+Bundle-Activator: karstenroethig.pokerstats.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms,
+ org.apache.commons.lang;bundle-version="2.6.0",
+ org.hsqldb;bundle-version="2.2.4",
+ org.hibernate;bundle-version="3.6.6",
+ net.ffxml.swtforms;bundle-version="0.9.1",
+ org.jfree.jfreechart;bundle-version="1.0.13"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Karsten Röthig
+Eclipse-RegisterBuddy: org.hibernate

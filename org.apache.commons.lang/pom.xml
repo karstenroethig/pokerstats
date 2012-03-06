@@ -1,0 +1,26 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>commons-lang</groupId>
+	<artifactId>commons-lang-plugin</artifactId>
+	<version>2.6</version>
+	<packaging>pom</packaging>
+	<name>Apache Commons Lang Plugin</name>
+	<url>http://commons.apache.org/lang/</url>
+	<description>
+		Commons Lang, a package of Java utility classes for the classes that
+		are in java.lang's hierarchy, or are considered to be so standard as
+		to justify existence in java.lang.
+    </description>
+	
+	<dependencies>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
